@@ -1,4 +1,4 @@
-export default [
+export const datas = [
   {
     id: 1,
     title: 'Olumo Rock',

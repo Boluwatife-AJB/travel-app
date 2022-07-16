@@ -1,10 +1,10 @@
 import React from 'react';
 import Header from './components/Header';
 import Card from './components/Card';
-import data from './data';
+import { datas } from './data';
 
 function App() {
-  const cards = data.map((item) => {
+  const cards = datas.map((item) => {
     return <Card key={item.id} item={item} />;
   });
 
